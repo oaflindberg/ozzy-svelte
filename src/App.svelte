@@ -1,6 +1,5 @@
 <script>
   import { intervalToDuration } from 'date-fns';
-  import { add_transform } from 'svelte/internal';
   import Bat from './lib/Bat.svelte';
   import Confetti from './lib/Confetti.svelte';
 
@@ -23,6 +22,15 @@
 
   setInterval(getDiff, 200);
 </script>
+
+<svelte:head>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"
+    rel="stylesheet"
+  />
+</svelte:head>
 
 <main>
   {#if showConfetti}
