@@ -78,7 +78,7 @@
 
   h3 {
     font-family: 'Shadows Into Light';
-    padding: 8px 40px;
+    padding: 8px 16px;
     color: rgb(202, 209, 216);
     font-size: 1.8em;
     text-align: center;
