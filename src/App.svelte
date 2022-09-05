@@ -12,11 +12,18 @@
       start: birthTime,
       end: new Date(),
     });
-    if (seconds < 5 && minutes === 0 && hours === 0 && days === 0 && years < 1) {
-      showConfetti = true;
-    } else {
-      showConfetti = false;
-    }
+    // if (seconds < 5 && minutes === 0 && hours === 0 && days === 0 && years < 1) {
+    //   showConfetti = true;
+    // } else {
+    //  showConfetti = false;
+    // }
+
+  if (seconds < 5 &&) {
+    showConfetti = true
+  } else { 
+    showConfetti = false
+  }
+
     age = `${years} år ${months} månader ${days} dagar ${hours} timmar ${minutes} minuter`;
   };
 
