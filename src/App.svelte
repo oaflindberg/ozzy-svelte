@@ -13,7 +13,7 @@
       end: new Date(),
     });
 
-  if (seconds < 5 &&) {
+  if (seconds < 5) {
     showConfetti = true
   } else { 
     showConfetti = false
