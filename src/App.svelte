@@ -14,10 +14,16 @@
     });
 
   if (seconds < 5) {
+  if (years >= 1 && months === 0 && days === 0 && hours === 0 && minutes === 0) {
     showConfetti = true
-  } else { 
+  } else if (years < 1 && days === 0 && hours === 0 && minutes === 0) {
+    showConfetti = true
+  } else {
     showConfetti = false
   }
+} else {
+    showConfetti = false
+}
 
     age = `${years} år ${months} månader ${days} dagar ${hours} timmar ${minutes} minuter`;
   };
