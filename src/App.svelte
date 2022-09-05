@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import { intervalToDuration } from 'date-fns';
   import Bat from './lib/Bat.svelte';
   import Confetti from './lib/Confetti.svelte';
@@ -12,11 +12,6 @@
       start: birthTime,
       end: new Date(),
     });
-    // if (seconds < 5 && minutes === 0 && hours === 0 && days === 0 && years < 1) {
-    //   showConfetti = true;
-    // } else {
-    //  showConfetti = false;
-    // }
 
   if (seconds < 5 &&) {
     showConfetti = true
@@ -28,7 +23,7 @@
   };
 
   setInterval(getDiff, 200);
-</script>
+</script> -->
 
 <svelte:head>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
