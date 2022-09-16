@@ -58,7 +58,7 @@
     </h3>
     <div class="age">
     <h3>
-      {age}
+      {age ?? 'Räknar ut ålder'}
     </h3>
     </div>
   </div>
