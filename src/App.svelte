@@ -87,7 +87,7 @@
   }
 
   .age {
-    width: 265px;
+    width: 260px;
   }
 
   h3 {
