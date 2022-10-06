@@ -26,8 +26,8 @@
 }
 
     age = `${years} år ${months} månader
-    ${days} dagar ${hours} timmar
-    ${minutes} minuter`;
+    \${days} dagar ${hours} timmar
+    \${minutes} minuter`;
   };
 
   setInterval(getDiff, 200);
