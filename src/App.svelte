@@ -25,9 +25,7 @@
     showConfetti = false
 }
 
-    age = `${years} år ${months} månader
-    \${days} dagar ${hours} timmar
-    \${minutes} minuter`;
+    age = `${years} år ${months} månader ${days} dagar ${hours} timmar ${minutes} minuter`;
   };
 
   setInterval(getDiff, 200);
