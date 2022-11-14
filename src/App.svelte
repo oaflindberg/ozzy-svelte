@@ -13,19 +13,19 @@
       end: new Date(),
     });
 
-  if (seconds < 5) {
-  if (years >= 1 && months === 0 && days === 0 && hours === 0 && minutes === 0) {
-    showConfetti = true
-  } else if (years < 1 && days === 0 && hours === 0 && minutes === 0) {
-    showConfetti = true
-  } else {
-    showConfetti = false
-  }
-} else {
-    showConfetti = false
-}
+    if (seconds < 5) {
+      if (years >= 1 && months === 0 && days === 0 && hours === 0 && minutes === 0) {
+        showConfetti = true;
+      } else if (years < 1 && days === 0 && hours === 0 && minutes === 0) {
+        showConfetti = true;
+      } else {
+        showConfetti = false;
+      }
+    } else {
+      showConfetti = false;
+    }
 
-    age = `${years} år ${months} månader ${days} dagar ${hours} timmar ${minutes} minuter`;
+    age = `${years} år ${months} månader ${days} dagar ${hours} timmar ${minutes} minuter ${seconds} sekunder`;
   };
 
   setInterval(getDiff, 200);
@@ -79,7 +79,7 @@
   h1 {
     font-size: 3em;
     padding: 0 16px;
-    font-family: sans-serif;
+    font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
   }
@@ -93,7 +93,9 @@
   }
 
   span {
-    color: rgb(202, 209, 216, 0.1);
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgba(202, 209, 216, 0.3);
+    color: transparent;
   }
 
   .content {
