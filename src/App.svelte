@@ -56,9 +56,11 @@
       {' '}
       05/02-22 • 3244G • 50CM
     </h3>
+    <div class="age">
     <h3>
-      {age}
+      {age ?? 'Räknar ut ålder'}
     </h3>
+    </div>
   </div>
   <div class="bat">
     <Bat />
@@ -82,6 +84,10 @@
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
+  }
+
+  .age {
+    width: 260px;
   }
 
   h3 {
@@ -134,6 +140,10 @@
   @media (min-width: 1024px) {
     h1 {
       font-size: 5em;
+    }
+
+    .age {
+      width: 100%;
     }
 
     h3 {
