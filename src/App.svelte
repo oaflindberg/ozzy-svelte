@@ -108,15 +108,11 @@
 
   h1 {
     font-size: 3em;
-    padding: 0 16px;
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
     height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
+    margin: 0 auto;
   }
 
   .age {
@@ -148,7 +144,6 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgba(202, 209, 216, 0.3);
     color: transparent;
-    padding: 0 20px;
   }
 
   .content {
