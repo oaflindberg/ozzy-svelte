@@ -103,8 +103,6 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* justify-content: center;
-    align-items: center; */
     flex-direction: column;
   }
 
@@ -114,7 +112,6 @@
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
-    /* height: 200px; */
     margin: 0 auto;
   }
 
