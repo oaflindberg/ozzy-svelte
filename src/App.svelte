@@ -101,8 +101,10 @@
     width: 100vw;
     background: #0e1116;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    /* justify-content: center;
+    align-items: center; */
     flex-direction: column;
   }
 
@@ -112,12 +114,12 @@
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
-    height: 200px;
+    /* height: 200px; */
     margin: 0 auto;
   }
 
   .info {
-    padding: 60px 0 20px 0;
+    padding: 20px 0;
   }
 
   .age {
