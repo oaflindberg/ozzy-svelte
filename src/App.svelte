@@ -64,7 +64,7 @@
       <span> VALENTIN LARS-OVE </span>{' '}
       VESTBERG
     </h1>
-    <h3>
+    <h3 class="info">
       {' '}
       05/02-22 • 3244G • 50CM
     </h3>
@@ -114,6 +114,10 @@
     color: rgb(202, 209, 216);
     height: 200px;
     margin: 0 auto;
+  }
+
+  .info {
+    padding: 20px 0;
   }
 
   .age {
