@@ -108,6 +108,7 @@
 
   h1 {
     font-size: 3em;
+    padding: 0 16px;
     font-family: Helvetica, sans-serif;
     text-align: center;
     color: rgb(202, 209, 216);
