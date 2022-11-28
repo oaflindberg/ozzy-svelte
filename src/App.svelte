@@ -96,6 +96,9 @@
 </main>
 
 <style>
+  *::selection {
+    background: #ffffff20;
+  }
   main {
     height: 100vh;
     width: 100vw;
@@ -146,7 +149,8 @@
 
   span {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgba(202, 209, 216, 0.3);
+    /* -webkit-text-stroke-color: rgba(202, 209, 216, 0.3); */
+    -webkit-text-stroke-color: #ff99c8;
     color: transparent;
   }
 
@@ -190,9 +194,11 @@
 
     .age {
       width: 100%;
+      height: auto;
     }
 
     .age-desktop {
+      padding-top: 0;
       display: flex;
     }
 
